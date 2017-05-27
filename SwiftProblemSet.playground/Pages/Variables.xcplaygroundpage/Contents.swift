@@ -16,7 +16,7 @@ import UIKit
 var gallonsRemainingInTank: Double
 var ageOfSpecimenInWeeks: Int
 let studentNickname: String
-var teaspoonsNutmeg: Float = 12.0
+let teaspoonsNutmeg: Float = 12.0
 
 //: ### Exercise 2
 //: Fix the following compiler errors related to assignment, variables, and constants:

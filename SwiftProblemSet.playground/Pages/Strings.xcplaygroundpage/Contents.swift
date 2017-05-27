@@ -24,7 +24,8 @@ lottaLikes.replacingOccurrences(of: "like, ", with: "")
 let numOfPennies = 567
 //desired output = "$5.67"
 let dollarCount = numOfPennies / 100
-let dollarsAndCents: String = "$\(dollarCount).\(numOfPennies % 100)"
+let centsCount = numOfPennies % 100
+let dollarsAndCents: String = "$\(dollarCount).\(centsCount)"
 
 //: Hint: [The remainder operator](https://developer.apple.com/library/content/documentation/Swift/Conceptual/Swift_Programming_Language/BasicOperators.html) , %, will come in handy.
 

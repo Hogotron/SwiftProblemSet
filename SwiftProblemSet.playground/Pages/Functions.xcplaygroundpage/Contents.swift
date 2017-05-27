@@ -45,6 +45,8 @@ func median(num1: Int, num2: Int, num3: Int) -> Int {
 
 func beginsWithVowel(word: String) -> Bool {
     let vowelsArray = ["A", "a", "E", "e", "I", "i", "O", "o", "U", "u"]
+    
+    
     if word == "" {
         return false
     } else {
@@ -57,7 +59,6 @@ func beginsWithVowel(word: String) -> Bool {
     }
 }
 
- 
  beginsWithVowel(word: "Apples") // true
  beginsWithVowel(word: "pIG") // false
  beginsWithVowel(word: "oink") // true
@@ -80,12 +81,11 @@ func beginsWithVowel(word: String) -> Bool {
 func funWithWords(newWord: String) -> String {
     if beginsWithVowel(word: newWord) {
         print(newWord.uppercased())
-        newWord.uppercased()
+        return newWord.uppercased()
     } else {
         print(newWord.lowercased())
-        newWord.lowercased()
+        return newWord.lowercased()
     }
-    return newWord
 }
 
 
